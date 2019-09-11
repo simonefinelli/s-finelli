@@ -118,9 +118,9 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    max-width: 11rem;
+    max-height: 11rem;
+    border: 0.25rem solid rgba(255, 255, 255, 1);
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -180,10 +180,15 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   background-color: #BD5D38 !important;
+  background-image: linear-gradient(45deg, #fc00ff,#00dbde) !important;
 }
 
 .text-primary {
   color: #BD5D38 !important;
+  /*background: -webkit-linear-gradient(45deg, #fc00ff,#00dbde) !important;*/
+  background: -webkit-linear-gradient(45deg, #fc00ff, #00dbde);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a {
