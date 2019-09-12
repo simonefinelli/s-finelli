@@ -87,6 +87,10 @@ p.lead {
   -webkit-text-fill-color: transparent;
 }
 
+.list-inline-item {
+  margin-right: 1rem !important;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -203,9 +207,8 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
 
-.img-icon{
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  vertical-align: middle; 
+.img-icon-size {
+  height: 48px;
+  width: auto;
+  margin-bottom: 1rem;
 }
