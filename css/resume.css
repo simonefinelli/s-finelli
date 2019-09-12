@@ -202,3 +202,10 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.img-icon{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  vertical-align: middle; 
+}
