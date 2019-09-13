@@ -217,3 +217,7 @@ a:hover, a:focus, a:active {
 .img-icon-size-php {
   padding-top: .2rem;
 }
+
+a {
+   outline: 0;
+}
