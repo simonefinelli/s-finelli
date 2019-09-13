@@ -210,6 +210,10 @@ a:hover, a:focus, a:active {
 .img-icon-size {
   height: 48px;
   width: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 0.6rem;
   max-width: 80px;
+}
+
+.img-icon-size-php {
+  padding-top: .2rem;
 }
