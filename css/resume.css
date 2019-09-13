@@ -211,4 +211,5 @@ a:hover, a:focus, a:active {
   height: 48px;
   width: auto;
   margin-bottom: 1rem;
+  max-width: 80px;
 }
