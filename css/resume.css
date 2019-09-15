@@ -193,18 +193,32 @@ section.resume-section .resume-item .resume-date {
 
 .text-primary {
   color: #BD5D38 !important;
-  /*background: -webkit-linear-gradient(45deg, #fc00ff,#00dbde) !important;*/
   background: -webkit-linear-gradient(45deg, #fc00ff, #00dbde);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 a {
-  color: #BD5D38;
+  color: #868e99;
+  outline: 0;
 }
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.quote-size {
+  font-size: 1.6rem !important;
+}
+
+.resume-content a:hover {
+  background: -webkit-linear-gradient(45deg, #fc00ff, #00dbde);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .img-icon-size {
@@ -218,6 +232,12 @@ a:hover, a:focus, a:active {
   padding-top: .2rem;
 }
 
-a {
-   outline: 0;
+.img-icon-size-centifications {
+  height: 43px;
+  width: auto;
+  margin-bottom: 0.8rem;
+}
+
+.certifications-list-item {
+  font-size: 1rem;
 }
