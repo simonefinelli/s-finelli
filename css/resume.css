@@ -186,6 +186,18 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .img-icon-size {
+    height: 35px;
+    width: auto;
+    margin-bottom: 0rem;
+    max-width: 80px;
+  }
+  .label-title{
+    display: none;
+  }
+}
+
 .bg-primary {
   background-color: #BD5D38 !important;
   background-image: linear-gradient(45deg, #fc00ff,#00dbde) !important;
@@ -222,9 +234,9 @@ a:hover {
 }
 
 .img-icon-size {
-  height: 48px;
+  height: 35px;
   width: auto;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0rem;
   max-width: 80px;
 }
 
@@ -240,4 +252,10 @@ a:hover {
 
 .certifications-list-item {
   font-size: 1rem;
+}
+
+.text-custom {
+  font-size: 1.5rem;
+  width: 11.5rem;
+  text-align: right;
 }
