@@ -59,7 +59,13 @@
     </div>
   </nav>
 
+
   <div class="container-fluid p-0">
+
+    <div id="fixed-div">
+    <div id="particles-js">
+    </div>
+    </div>
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
@@ -283,6 +289,10 @@
 
     <hr class="m-0">
 
+    <!------------------------->
+    <!--- SECTION: Projects --->
+    <!------------------------->
+
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
         <h2 class="mb-5">Projects</h2>
@@ -290,7 +300,8 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Rock-Paper-Scissors</h3>
-            <div class="subheading mb-3">The goal is to predict if the hand’s image is rock, paper or scissors with a Convolutional Neural Network.</div>
+            <div class="subheading mb-3">Convolutional Neural Network</div>
+            <h5>The goal is to predict if the hand’s image is rock, paper or scissors with a Convolutional Neural Network.</h5>
             <p><a href="https://github.com/simonefinelli/Rock-Paper-Scissors" target="_blank">View project</a></p>
           </div>
           <div class="resume-date text-md-right">
@@ -406,7 +417,7 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section>  
 
   </div>
 
@@ -419,6 +430,17 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script type="text/javascript">
+    particlesJS.load('particles-js', 'assets/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+      $('#particles-js').css('position', 'fixed');
+      $('#particles-js').css('z-index', '-1');
+    });
+  </script>
+
+
+
 
 </body>
 
