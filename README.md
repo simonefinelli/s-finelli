@@ -1,3 +1,3 @@
-# My Resume
+# My Personal Website
 
-Made with Bootstrap 4
+Made with Bootstrap 4.
