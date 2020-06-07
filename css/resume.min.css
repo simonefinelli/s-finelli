@@ -19,3 +19,10 @@
  	height: 100%;
  	z-index: -1;
  }
+
+ .quote-style {
+ 	font-weight: 600 !important;
+ 	margin-bottom: 5rem;
+ }
+
+ @media (max-width: 992px) { #particles-js { display: none !important;} }
